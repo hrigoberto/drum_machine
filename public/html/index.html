@@ -9,15 +9,20 @@
 <body>
   <div class="container">
     <div id="btns">
-      <button type="button" class="btn btn-lg col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-3 col-xs-6">Kick</button>
-      <button type="button" class="btn btn-lg col-md-2 col-sm-2 col-xs-6">Snare</button>
-      <button type="button" class="btn btn-lg col-md-2 col-sm-2 col-xs-6">HiHat</button>
-      <button type="button" class="btn btn-lg col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-3 col-xs-6">Tom1</button>
-      <button type="button" class="btn btn-lg col-md-2 col-sm-2 col-xs-6">Tom2</button>
+      <button type="button" class="btn btn-lg col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-3 col-xs-6" id="kick" >Kick</button>
+      <button type="button" class="btn btn-lg col-md-2 col-sm-2 col-xs-6" id="snare">Snare</button>
+      <button type="button" class="btn btn-lg col-md-2 col-sm-2 col-xs-6" id="hiHat">HiHat</button>
+      <button type="button" class="btn btn-lg col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-3 col-xs-6" id="midTom">Mid Tom</button>
+      <button type="button" class="btn btn-lg col-md-2 col-sm-2 col-xs-6" id="floorTom">Floor Tom</button>
       <button type="button" class="btn btn-lg col-md-2 col-sm-2 col-xs-6" id="Ride">Ride</button>
     </div>
     <div>
       <audio src="CrashA.mp3" type="audio/mpeg" id="rideNoise"></audio>
+      <audio src="HiHat8.mp3" type="audio/mpeg" id="hiHatNoise"></audio>
+      <audio src="Kick6.mp3" type="audio/mpeg" id="kickNoise"></audio>
+      <audio src="Snare5.mp3" type="audio/mpeg" id="snareNoise"></audio>
+      <audio src="TomMid8.mp3" type="audio/mpeg" id="midTomNoise"></audio>
+      <audio src="TomFloor6.mp3" type="audio/mpeg" id="floorTomNoise"></audio>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
