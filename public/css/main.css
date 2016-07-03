@@ -1,0 +1,23 @@
+html {
+  background-color: black;
+}
+
+body {
+  background-color: black;
+}
+
+#btns {
+  background-color: black;
+}
+
+.container {
+  margin-top: 40px;
+  background-color: black;
+}
+
+.btn {
+  background-color: #23adbc;
+  margin-top: 30px;
+  border-width: 2px;
+  border-color: black;
+}
