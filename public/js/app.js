@@ -21,32 +21,38 @@ $(document).ready(function(){
 
 
   function hitMidTom() {
+    $midTomNoise.load();
     $midTomNoise.play();
     console.log('I worked');
   }
 
   function hitSnare() {
+    $snareNoise.load();
     $snareNoise.play();
     console.log('I worked');
   }
 
   function hitKick() {
+    $kickNoise.load();
     $kickNoise.play();
     console.log('I worked');
   }
 
 
   function hitFloorTom() {
+    $floorTomNoise.load();
     $floorTomNoise.play();
     console.log('I worked');
   }
 
   function hitHiHat() {
+    $hiHatNoise.load();
     $hiHatNoise.play();
     console.log('I worked');
   }
 
   function hitRide() {
+    $rideNoise.load();
     $rideNoise.play();
     console.log('I worked');
   }
